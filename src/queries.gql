@@ -1,0 +1,13 @@
+query getCollectionList {
+  getCollectionList{
+    items{
+      title
+      image{
+        sourceUrl
+      }
+      products{
+      	name
+      }
+    }
+  }
+}
