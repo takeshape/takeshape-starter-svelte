@@ -1,6 +1,6 @@
 # TakeShape Starter Svelte
 
-The following is a guide to launching a Vue 2 TakeShape project that injects Ecommerce data into your components.
+The following is a guide to launching a Svelte TakeShape project that injects Ecommerce data into your components.
 
 
 ## Instructions
