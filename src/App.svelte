@@ -7,10 +7,10 @@
 	import gql from 'graphql-tag'
 	
 	const link = new HttpLink({
-		uri: 'YOUR-ENDPOINT-HERE',
+		uri: process.env.SVELTE_APP_TAKESHAPE_ENDPOINT,
 		fetch,
 		headers: {
-			Authorization : `Bearer YOUR-API-KEY-HERE`
+			Authorization : `Bearer ${process.env.SVELTE_APP_TAKESHAPE_API_KEY}`
 		}
 	});
 
